@@ -27,6 +27,7 @@ export class AppComponent {
   public lineChartLabels: string[] = [];
   public lineChartOptions: ChartOptions = {
     responsive: true,
+    maintainAspectRatio : false,
     title: {
       display: true,
       text: 'Forecast of Low/High Temperatures per Day'
@@ -39,6 +40,11 @@ export class AppComponent {
         }
       ]
     },
+    legend :{
+      labels :{
+        fontSize: 9,
+      }
+    }
     /*
     tooltips:{
       // Disable the on-canvas tooltip

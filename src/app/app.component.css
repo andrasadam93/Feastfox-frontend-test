@@ -63,13 +63,21 @@ mat-card-content canvas{
     height:400px;
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width:400px){
+    .wCard{
+        margin:0 5px!important;
+    }
+
+    mat-card-content canvas{
+        height:300px!important;
+    }   
+}
+@media screen (min-width:401px) and (max-width:560px){
     .wCard{
         margin:0 10px!important;
     }
 
     mat-card-content canvas{
-        width:250px!important;
-        height:250px!important;
+        height:400px!important;
     }   
 }
