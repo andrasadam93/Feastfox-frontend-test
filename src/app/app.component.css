@@ -72,12 +72,12 @@ mat-card-content canvas{
         height:300px!important;
     }   
 }
-@media screen (min-width:401px) and (max-width:560px){
+@media screen and (min-width:401px){
     .wCard{
         margin:0 10px!important;
     }
 
     mat-card-content canvas{
-        height:400px!important;
+        min-height:400px!important;
     }   
 }
