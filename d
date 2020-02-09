@@ -1,0 +1,16 @@
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+core.editor="C:\Program Files (x86)\Microsoft VS Code\Code.exe" --wait
+user.name=andrasadam93
+user.email=hello@andrasadam.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
