@@ -45,7 +45,7 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    flex-wrap:wrap
+    flex-wrap:wrap;
 }
 
 .gridInnerContent{
@@ -63,18 +63,13 @@ mat-card-content canvas{
     height:400px;
 }
 
-@media(max-width:300px){
-    body,html{
-        font-size:80%;
+@media screen and (max-width:560px){
+    .wCard{
+        margin:0 10px!important;
     }
+
     mat-card-content canvas{
-        width:250px;
-        height:250px;
-    }   
-}
-@media(min-width:301px)and(max-width:401px){
-    mat-card-content canvas{
-        width:250px;
-        height:250px;
+        width:250px!important;
+        height:250px!important;
     }   
 }

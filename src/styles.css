@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+html { font-size: 62.5%; } 
+body { font-size: 1.4rem; } /* =14px */
+h1   { font-size: 2.4rem; } /* =24px */
+h2   { font-size: 2.0rem; }
+h3   { font-size: 1.8rem; }
+h4   { font-size: 1.4rem; }
+h5   { font-size: 1.2rem; }
+h6   { font-size: 1.0rem; }
+p   { font-size: 1.4rem; }
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -14,4 +23,11 @@ html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media screen and (max-width:560px){
+    html{
+        font-size: 50%;
+    }
+
 }
